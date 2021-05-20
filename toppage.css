@@ -5,7 +5,6 @@
 .toppage {
     height: 50px;
     width: 100%;
-    border: solid black;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -13,32 +12,36 @@
 .horn {
     height: 40px;
     width: 5%;
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dropdown  {
     height: 40px;
     width: 5%;
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .bars {
     height: 40px;
     width: 5%;
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .duckbox {
     height: 200px;
     width: 100%;
-    border: solid black;
     display: flex;
     justify-content: center;
 }
 .duckhead {
     height: 170px;
     width: 15%;
-    border: solid black 2px;
     display: flex;
     justify-content: center;
 }
